@@ -11,11 +11,11 @@ describe("checking for truth", () => {
     }
   });
   test("wordToCheck is a palindrome, case and everything", () => {
-    let wordToCheck = "replace me"; // yeah, replace the value to pass the test.
+    let wordToCheck = "bob"; // yeah, replace the value to pass the test.
     expect(wordToCheck.split("").reverse().join("")).toBe(wordToCheck);
   });
   test("true", () => {
-    let val = null; //set this to a passing value
+    let val = 10; //set this to a passing value
     expect(val).toBeTruthy();
   });
   test("there is a sequence to this test", () => {
